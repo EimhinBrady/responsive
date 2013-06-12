@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>The 1140px Grid &middot; Fluid down to mobile</title>
+	<title>Button and Buttercups</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
@@ -24,8 +24,19 @@
 	
 	body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color:#6f004d;
+	}
+	#main{
+	background:#aa0178;
+	min-height:500px;
 	}
 	
+	
+	
+	h1
+	{
+	color:white;
+	}
 	.container p {
 	color: #fff;
 	line-height: 100px;
@@ -33,7 +44,11 @@
 	text-align: center;
 	margin: 20px 0 0 0;
 	}
-	
+	.dash
+	{
+	border-radius:15px;
+	border:1px dashed white;
+	}
 	</style>
 
 </head>
@@ -41,236 +56,56 @@
 
 <body>
 
-<div class="container">
-	<div class="row">
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol last">
-			<p>One</p>
-		</div>
-	</div>
-</div>
 
-<div class="container">
-	<div class="row">
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="twocol last">
-			<p>Two columns</p>
-		</div>
-	</div>
-</div>
 
-<div class="container">
-	<div class="row">
-		<div class="threecol">
-			<p>Three columns</p>
-		</div>
-		<div class="threecol">
-			<p>Three columns</p>
-		</div>
-		<div class="threecol">
-			<p>Three columns</p>
-		</div>
-		<div class="threecol last">
-			<p>Three columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="fourcol">
-			<p>Four columns</p>
-		</div>
-		<div class="fourcol">
-			<p>Four columns</p>
-		</div>
-		<div class="fourcol last">
-			<p>Four columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="elevencol last">
-			<p>Eleven columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="tencol last">
-			<p>Ten columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="threecol">
-			<p>Three columns</p>
-		</div>
-		<div class="ninecol last">
-			<p>Nine columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="fourcol">
-			<p>Four columns</p>
-		</div>
-		<div class="eightcol last">
-			<p>Eight columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="fivecol">
-			<p>Five columns</p>
-		</div>
-		<div class="sevencol last">
-			<p>Seven columns</p>
-		</div>
-	</div>
-</div>
 
 <div class="container">
 	<div class="row">
 		<div class="sixcol">
-			<p>Six columns</p>
+			<h1>six columns</h1>
 		</div>
 		<div class="sixcol last">
-			<p>Six columns</p>
+			<h1>six columns</h1>
+		</div>
+	</div>
+</div>
+
+<div class="container" id="main">
+	<div class="dash">
+		<div class="row">
+			<div class="fourcol">
+				<h1>Four columns</h1>
+			</div>
+			<div class="fourcol">
+				<h1>Four columns</h1>
+			</div>
+			<div class="fourcol last">
+				<h1>Four columns</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="fourcol">
+				<h1>Four columns</h1>
+			</div>
+			<div class="fourcol">
+				<h1>Four columns</h1>
+			</div>
+			<div class="fourcol last">
+				<h1>Four columns</h1>
+			</div>
 		</div>
 	</div>
 </div>
 
 <div class="container">
 	<div class="row">
-		<div class="sevencol">
-			<p>Seven columns</p>
-		</div>
-		<div class="fivecol last">
-			<p>Five columns</p>
+		
+		<div class="twelvecol last">
+			<h1>twelve columns</h1>
 		</div>
 	</div>
 </div>
-
-<div class="container">
-	<div class="row">
-		<div class="eightcol">
-			<p>Eight columns</p>
-		</div>
-		<div class="fourcol last">
-			<p>Four columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="ninecol">
-			<p>Nine columns</p>
-		</div>
-		<div class="threecol last">
-			<p>Three columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="tencol">
-			<p>Ten columns</p>
-		</div>
-		<div class="twocol last">
-			<p>Two columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="elevencol">
-			<p>Eleven columns</p>
-		</div>
-		<div class="onecol last">
-			<p>One</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="threecol">
-			<p>Three columns</p>
-		</div>
-		<div class="sixcol">
-			<p>Six columns</p>
-		</div>
-		<div class="threecol last">
-			<p>Three columns</p>
-		</div>
-	</div>
-</div>
-
 
 </body>
 
